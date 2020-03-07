@@ -1,0 +1,34 @@
+.custom-color-nav{
+    background-color: white;
+}
+
+.buy-now-button{
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius:8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.carousel-item{
+    padding:20px 40px;
+}
+.container{
+    margin-top:50px;
+}
+.orange-bg{
+    background-color:whitesmoke;
+    border-radius: 10px;
+}
+.carousel-indicators li {
+    background-color: gray;
+    height: 7px;
+    width: 12px;
+    border-radius: 100px;
+    border: none;
+}
+
+.carousel-indicators .active {
+    background-image: linear-gradient(to left,#ffb15dee 0%,#FF9C35 100%);
+    width: 30px;
+}
