@@ -1,3 +1,6 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 .custom-color-nav{
     background-color: white;
 }
@@ -31,4 +34,62 @@
 .carousel-indicators .active {
     background-image: linear-gradient(to left,#ffb15dee 0%,#FF9C35 100%);
     width: 30px;
+}
+
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+
+.expand{
+    color:orange;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+
+hr.middle{
+        border: 4px solid orange;
+        border-radius: 5px;
+        text-align: center;
+        width: 50px;
+        margin-top: -37px;
+        margin-bottom: 100px;
+    
+}
+.cat-beauty{
+    margin-bottom: 30px;
+}
+
+.cat-beauty h4{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.cat-bag h4{
+    margin-top: 20px;
+    
+}
+
+.footer-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+footer{
+    text-align: center;
+    color: gray;
 }
